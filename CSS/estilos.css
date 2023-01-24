@@ -1,0 +1,108 @@
+/**LAYOUT*/
+.conteiner{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    /**align-items: center;*/
+
+}
+.figureAside{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+/**Generales*/
+*{
+    font-family: 'Roboto Light', sans-serif;
+}
+h2{
+    color: green;
+    letter-spacing: 3px;
+}
+/**Barra de navegacion*/
+nav ul li{
+    height: 30px;
+    background-color: lightgray;
+}
+nav ul li:first-child{
+    background-color: green;
+}
+
+nav ul li a{
+    font-size:x-large;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a:hover{
+    color:white;
+}
+
+/**Barra lateral*/
+#barLateral{
+    padding: 3px 3px;
+}
+aside{
+    padding: 3px 3px;
+    margin : 5px 5px 5px 5px;
+    width: 30%;
+ 
+    border: solid gray;
+    background-color: lightgray;
+}
+
+figcaption{
+   font-size: 1.5rem;
+}
+img{
+    border-radius: 50%;
+}
+aside ul{
+    list-style: none;
+}
+aside ul li i {
+    padding: 18px 16px;
+}
+
+/**Main */
+main{
+    margin-left: 5%;
+}
+/**Pie de página*/
+footer section {
+    padding: 3em 1em;
+    background-color:#cdc6bc;
+
+}
+/** Formulario */
+
+.EnvioCorreo{
+    margin: 3px;
+    border:green solid;
+    display: flex;
+    justify-content: center;
+    padding: 6px 6px;
+}
+#btnEnviar{
+    padding: 10px 10px;
+}
+/**--------------Puntos de quiebre--------------------*/
+
+
+
+@media (max-width: 1200px){
+    #msj{
+        width: 300px;
+    }
+    .conteiner{
+        flex-direction: column;
+    }
+    aside{
+        width: 90%;
+    }
+}

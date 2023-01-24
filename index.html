@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+     <!-- Enlazando a fuente de iconos-->
+     <script src="https://kit.fontawesome.com/ecbc8df38a.js" crossorigin="anonymous"></script>
+     <!-- Enlazando a fuente de google -->
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Laurie Fuller</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul> 
+             <li><a href="" class="nav-link">INICIO</a></li>
+             <li><a href="#sectionForm" class="nav-link">CONTACTAR</a></li>
+            </ul>    
+         </nav>
+
+    </header>
+    
+    <div id="barLateral" class="conteiner">
+        <aside>
+            <div class="figureAside">
+                <figure>
+                    <img src="img/perfil.jpg" alt="Imagen de perfil de Laurie Fuller"/>
+                    <figcaption>Laurie Fuller</figcaption>
+                <figure>
+            </div>
+            
+            <section>
+            <h2>DATOS PERSONALES</h2>
+            <ul>
+                <li><i class="fa-solid fa-user"></i>Laurie Fuller</li>
+                <li><i class="fa-solid fa-envelope"></i>laurie.fuller@example.com</li>
+                <li><i class="fa-solid fa-calendar-days"></i>7/1/1977</li>
+                <li><i class="fa-solid fa-map-location-dot"></i>6318 Country Club Rd</li>
+                <li><i class="fa-solid fa-phone"></i>(610) 470-4928</li>
+    
+            </ul>
+            </section>
+            <section>
+                <h2>ESTUDIOS</h2>
+                <article>
+                    <h3>Analista en Sistemas de Información</h3>
+                    <h4>Universidad Nacional de Santiago del Estero (UNSE)/1997-2001</h4>
+                </article>
+                <article>
+                    <h3>Doctorado en informática</h3>
+                    <h4>Universitat Politècnica de València (UPV)/2001-2004</h4>
+                </article>
+               
+            </section>
+        </aside>
+        <main>
+            <section>
+                <h2>EXPERIENCIA</h2>
+                <article>
+    
+                    <h3>Técnico informático</h3>
+                    <h4>Panel Sistemas Informáticos S.L/C. de Josefa Valcárcel, 9, 28027 Madrid, España/Febrero 2013- julio 2015</h4>
+                    <ul>
+                        <li>Responsable de la instalación de sistemas operativos y paquetes de software para los nuevos empleados de la compañía.</li>
+                        <li>Proporcioné mantenimiento a más de 600 equipos de cómputo de forma periódica.</li>
+                        <li>Atendí exitosamente un promedio de 50 solicitudes diarias provenientes de usuarios.</li>
+                        <li>Reduje el tiempo de respuesta de atención de usuario en un 50%.</li>
+    
+                    </ul>	
+    
+                </article>
+    
+                <article>
+                    <h3>Técnico de Sistemas</h3>
+                    <h4>IT Partners and Co/3116 S Mill Ave #411, Tempe, AZ 85282, Estados Unidos/Julio 2015- enero 2020</h4>
+                    
+                    <ul>
+                        <li>A cargo de proporcionar mantenimiento y soporte para los más de 500 equipos informáticos de la empresa.</li>
+                        <li>Creé un protocolo de actuación en caso de averías y problemas que redujo los tiempos de reparación en un 15%.</li>
+                        <li>Gracias a la creación de una serie de videos tutoriales dirigidos al usuario, reduje el número de solicitudes de ayuda diaria en un 25%.</li>
+                        <li>Instauré un nuevo sistema de encuestas para revelar sus índices de satisfacción anuales.</li>
+                    </ul>
+                </article>
+                
+    
+            </section>
+            <section>
+                <h2>HABILIDADES</h2>
+    
+                <ul>
+                    <li>Conocimientos de redes LAN y WAN.</li>
+                    <li>Resolución de problemas.</li>
+                    <li>Trabajo bajo presión.</li>
+                    <li>Bases de datos Oracle.</li>
+                    <li>Bases de datos SQLServer.</li>
+                    <li>Atención al usuario.</li>
+                    <li>Administración de la nube.</li>
+                    <li>Aprendizaje rápido.</li>
+    
+                </ul>
+            </section>
+             
+             
+        </main>
+
+    </div>
+    
+    <section id = "sectionForm" class="EnvioCorreo">
+        <form action="" method="GET">
+            <h2>FORMULARIO DE CONTACTO</h2>
+            <label id ="Lname" for="nombre">Nombre:</label><br>
+            <input id = "nombre" type="text" name="inputNombre" placeholder="Ingrese su nombre" required><br>
+            <label id = "Lcorreo" for ="correo">Correo:</label><br>
+            <input id ="correo" type="email" name="inputMail" placeholder="ejemplo@gmail.com" required><br>
+            <label for="msj">Mensaje:</label><br>
+            <textarea id = "msj" name ="mensaje" placeholder="Ingrese el mensaje" rows="8" cols="55" required></textarea><br>
+            <button id = "btnEnviar" type="submit">ENVIAR</button>
+        </form>
+        
+
+    </section>
+    <footer>
+        <section>
+            <h2>SITIOS DE INTERÉS</h2>
+            <a  href ="https://www.unse.edu.ar/" target="_blank" style="padding: 10px 10px;"><i class="fa-solid fa-globe"></i>UNSE</a>
+            <a  href ="https://www.upv.es/es" target="_blank" style="padding: 10px 10px;"><i class="fa-solid fa-globe"></i>UPV</a>
+        </section>
+        
+       
+    </footer>
+    <script src = "JS/funciones.js"></script>
+    
+     
+    
+</body>
+</html>
