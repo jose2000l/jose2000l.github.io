@@ -3,6 +3,7 @@
     display: flex;
     width: 1200px;
     justify-content: space-between;
+
     /**align-items: center;*/
 
 }
@@ -18,9 +19,12 @@
     font-family: 'Roboto Light', sans-serif;
 }
 h2{
+    text-align: center;
+    border-bottom: 2px solid black;
     color: green;
     letter-spacing: 3px;
 }
+
 /**Barra de navegacion*/
 nav ul li{
     
@@ -46,6 +50,7 @@ nav ul li a:hover{
 /**Barra lateral*/
 #barLateral{
     padding: 3px 3px;
+    
 }
 aside{
     padding: 3px 3px;
@@ -108,7 +113,10 @@ footer section {
         flex-direction: column;
     }
     aside{
-        width: 90%;
+        width: 98%;
+    }
+    main{
+        margin: 0%;
     }
 }
 @media (max-width: 375px){
@@ -127,6 +135,9 @@ footer section {
         flex-direction: column;
     }
     aside{
-        width: 90%;
+        width: 93.5%;
+    }
+    main{
+        margin: 0%;
     }
 }

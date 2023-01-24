@@ -21,3 +21,6 @@ function redimensionar(anchoPantalla){
    
     document.getElementById("barLateral").style.width=StrnuevoLargo;
 }
+var widthNew = document.documentElement.clientWidth;
+redimensionar(widthNew);
+console.log(widthNew)
