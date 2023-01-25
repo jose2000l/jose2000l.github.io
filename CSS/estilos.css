@@ -1,10 +1,13 @@
 /**LAYOUT*/
+header{
+    background-color:#cdc6bc;;
+}
 .conteiner{
     display: flex;
     width: 1200px;
     justify-content: space-between;
 
-    /**align-items: center;*/
+    
 
 }
 .figureAside{
@@ -25,38 +28,37 @@ h2{
     letter-spacing: 3px;
 }
 
-/**Barra de navegacion*/
-nav ul li{
-    
-    background-color: lightgray;
+/**Barra de navegacion y encabezado*/
+header{
+    display: flex;
+    justify-content: start;
 }
-nav ul li:first-child{
-    background-color: green;
+nav {
+    justify-content:space-between;  
 }
 
-nav ul li a{
-    font-size:40px;
-    font-weight: bold;
+
+a{
+    margin-right: 20px ;
+    font-size:24px;
     color: black;
     text-decoration: none;
 }
 nav ul{
     list-style: none;
 }
-nav ul li a:hover{
+a:hover{
     color:white;
 }
 
 /**Barra lateral*/
-#barLateral{
+#curriculum{
     padding: 3px 3px;
     
 }
 aside{
     padding: 3px 3px;
-    margin : 5px 5px 5px 5px;
     width: 30%;
- 
     border: solid gray;
     background-color: lightgray;
 }
@@ -99,12 +101,10 @@ footer section {
 /**--------------Puntos de quiebre--------------------*/
 
 
-
-
 @media (max-width: 1200px){
     /**Barra de navegacion*/
-    nav ul li a{
-        font-size: 24px;
+    a{
+        font-size: 28px;
     }
     
     
@@ -125,7 +125,7 @@ footer section {
 }
 @media (max-width: 375px){
     /**Barra de navegacion*/
-    nav ul li a{
+    a{
         font-size: 32px;
     }
     #msj{
@@ -147,5 +147,10 @@ footer section {
     /**Seccion principal*/
     main{
         margin: 0%;
+    }
+    /**Pie de pagina*/
+    footer section {
+        display: flex;
+        flex-direction: column;
     }
 }
