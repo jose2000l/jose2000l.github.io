@@ -102,41 +102,49 @@ footer section {
 
 
 @media (max-width: 1200px){
-    
+    /**Barra de navegacion*/
     nav ul li a{
-        font-size: 32px;
+        font-size: 24px;
     }
+    
+    
     #msj{
         width: 300px;
+    }
+    /**Barra lateral*/
+    aside{
+        width: 98%;
     }
     .conteiner{
         flex-direction: column;
     }
-    aside{
-        width: 98%;
-    }
+    /**Seccion principal*/
     main{
         margin: 0%;
     }
 }
 @media (max-width: 375px){
+    /**Barra de navegacion*/
     nav ul li a{
-        font-size: 24px;
+        font-size: 32px;
     }
+    #msj{
+        width: 200px
+    }
+    /**Barra lateral*/
     aside ul{
         display: flex;
         flex-direction: column;
         padding: 0px;
     }
-    #msj{
-        width: 200px
-    }
-    .conteiner{
-        flex-direction: column;
-    }
     aside{
         width: 93.5%;
     }
+    
+    .conteiner{
+        flex-direction: column;
+    }
+    /**Seccion principal*/
     main{
         margin: 0%;
     }
