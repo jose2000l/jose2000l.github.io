@@ -1,3 +1,9 @@
+/**
+ * Apenas cargamos el script ajustamos la barra lateral segun el ancho de pantalla
+ */
+var widthNew = document.documentElement.clientWidth;
+redimensionar(widthNew);
+console.log(widthNew)
 
 /** Descripcion: Capturamos el evento: El mouse está sobre el boton enviar del formulario */
 document.getElementById("btnEnviar").addEventListener('mouseover',function(){
@@ -21,6 +27,3 @@ function redimensionar(anchoPantalla){
    
     document.getElementById("curriculum").style.width=StrnuevoLargo;
 }
-var widthNew = document.documentElement.clientWidth;
-redimensionar(widthNew);
-console.log(widthNew)
