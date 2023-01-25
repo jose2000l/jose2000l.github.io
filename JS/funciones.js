@@ -19,7 +19,7 @@ function redimensionar(anchoPantalla){
     var nuevoLargo = anchoPantalla-50;
     var StrnuevoLargo = nuevoLargo+"px";
    
-    document.getElementById("barLateral").style.width=StrnuevoLargo;
+    document.getElementById("curriculum").style.width=StrnuevoLargo;
 }
 var widthNew = document.documentElement.clientWidth;
 redimensionar(widthNew);
