@@ -57,6 +57,7 @@ a:hover{
     
 }
 aside{
+    margin-top: 10px;
     padding: 3px 3px;
     width: 30%;
     border: solid gray;
