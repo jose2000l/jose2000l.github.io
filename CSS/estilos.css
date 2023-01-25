@@ -52,7 +52,7 @@ a:hover{
 }
 
 /**Barra lateral*/
-#curriculum{
+#msj{
     padding: 3px 3px;
     
 }
@@ -99,30 +99,6 @@ footer section {
     padding: 10px 10px;
 }
 /**--------------Puntos de quiebre--------------------*/
-
-
-@media (max-width: 1200px){
-    /**Barra de navegacion*/
-    a{
-        font-size: 28px;
-    }
-    
-    
-    #msj{
-        width: 300px;
-    }
-    /**Barra lateral*/
-    aside{
-        width: 98%;
-    }
-    .conteiner{
-        flex-direction: column;
-    }
-    /**Seccion principal*/
-    main{
-        margin: 0%;
-    }
-}
 @media (max-width: 375px){
     /**Barra de navegacion*/
     a{
@@ -153,4 +129,28 @@ footer section {
         display: flex;
         flex-direction: column;
     }
+
 }
+@media (max-width: 1200px){
+    /**Barra de navegacion*/
+    a{
+        font-size: 28px;
+    }
+    
+    
+    #msj{
+        width: 300px;
+    }
+    /**Barra lateral*/
+    aside{
+        width: 98%;
+    }
+    .conteiner{
+        flex-direction: column;
+    }
+    /**Seccion principal*/
+    main{
+        margin: 0%;
+    }
+}
+
